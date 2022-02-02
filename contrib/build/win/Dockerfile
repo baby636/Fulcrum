@@ -2,7 +2,7 @@
 # Example usage:
 #   $ docker build --force-rm -t fulcrum-builder/qt:windows .
 #   $ docker run --rm -it -v $(pwd):/work fulcrum-builder/qt:windows
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 LABEL maintainer="Calin Culianu <calin.culianu@gmail.com>"
 ENTRYPOINT ["/bin/bash"]
 
