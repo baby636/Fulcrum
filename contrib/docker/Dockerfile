@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:18.04
 LABEL maintainer="Axel Gembe <derago@gmail.com>"
 
 ARG MAKEFLAGS
